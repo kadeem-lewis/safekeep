@@ -1,5 +1,13 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import AppHeader from './components/layout/AppHeader.vue'
+import SidePanel from './components/layout/SidePanel.vue'
+import MainArea from './components/app/MainArea.vue'
+</script>
 
 <template>
-  <h1>hi</h1>
+  <AppHeader />
+  <main class="flex">
+    <SidePanel />
+    <MainArea />
+  </main>
 </template>
