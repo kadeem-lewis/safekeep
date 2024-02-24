@@ -42,21 +42,25 @@
           <div class="grid gap-y-4">
             <!-- Form Group -->
             <div>
-              <label for="email" class="block text-sm mb-2 dark:text-white"
-                >Email</label
-              >
+              <label
+                for="email"
+                class="block text-sm mb-2 dark:text-white"
+              >Email</label>
               <div class="relative">
                 <input
+                  id="email"
                   type="email"
                   name="email"
-                  id="email"
                   placeholder="abc@email.com"
                   required
                   class="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400"
                   aria-describedby="email-error"
-                />
+                >
               </div>
-              <p class="hidden text-xs text-red-600 mt-2" id="email-error">
+              <p
+                id="email-error"
+                class="hidden text-xs text-red-600 mt-2"
+              >
                 Please include a valid email address so we can get back to you
               </p>
             </div>
@@ -65,24 +69,26 @@
             <!-- Form Group -->
             <div>
               <div class="flex justify-between items-center">
-                <label for="password" class="block text-sm mb-2 dark:text-white"
-                  >Password</label
-                >
+                <label
+                  for="password"
+                  class="block text-sm mb-2 dark:text-white"
+                >Password</label>
                 <NuxtLink
                   class="text-sm text-blue-600 decoration-2 hover:underline font-medium"
                   to="password"
-                  >Forgot password?</NuxtLink
                 >
+                  Forgot password?
+                </NuxtLink>
               </div>
               <div class="relative">
                 <input
-                  type="password"
                   id="password"
+                  type="password"
                   name="password"
                   class="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400"
                   required
                   aria-describedby="password-error"
-                />
+                >
                 <div
                   class="hidden absolute inset-y-0 right-0 flex items-center pointer-events-none pr-3"
                 >
@@ -100,7 +106,10 @@
                   </svg>
                 </div>
               </div>
-              <p class="hidden text-xs text-red-600 mt-2" id="password-error">
+              <p
+                id="password-error"
+                class="hidden text-xs text-red-600 mt-2"
+              >
                 8+ characters required
               </p>
             </div>
@@ -114,12 +123,13 @@
                   name="remember-me"
                   type="checkbox"
                   class="shrink-0 mt-0.5 border-gray-200 rounded text-blue-600 pointer-events-none focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800"
-                />
+                >
               </div>
               <div class="ml-3">
-                <label for="remember-me" class="text-sm dark:text-white"
-                  >Remember me</label
-                >
+                <label
+                  for="remember-me"
+                  class="text-sm dark:text-white"
+                >Remember me</label>
               </div>
             </div>
             <!-- End Checkbox -->

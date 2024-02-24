@@ -12,9 +12,24 @@
       <SideBar />
       <aside>
         <menu class="list-none font-medium">
-          <li><Icon name="uil:notes" :inline="true" />Notes</li>
-          <li><Icon name="solar:trash-bin-2-linear" :inline="true" />Bin</li>
-          <li><Icon name="solar:archive-bold" :inline="true" />Archive</li>
+          <li>
+            <Icon
+              name="uil:notes"
+              :inline="true"
+            />Notes
+          </li>
+          <li>
+            <Icon
+              name="solar:trash-bin-2-linear"
+              :inline="true"
+            />Bin
+          </li>
+          <li>
+            <Icon
+              name="solar:archive-bold"
+              :inline="true"
+            />Archive
+          </li>
         </menu>
       </aside>
       <slot />
